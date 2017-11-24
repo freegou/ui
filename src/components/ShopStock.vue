@@ -28,7 +28,7 @@
             <td>{{stock.name}}</td>
             <td>{{stock.value}}</td>
             <td>{{stock.price}}</td>
-            <td class="td-status"><span class="label label-success radius">{{stock.stock.stock}}</span></td>
+            <td class="td-status"><span class="label label-success radius">{{stock.stock}}</span></td>
           </tr>
           </tbody>
         </table>

@@ -106,13 +106,11 @@
               let infoWindow = new SimpleInfoWindow({
                 myCustomHeader: '我的header',
                 myCustomFooter: '我的footer',
-                infoTitle: '<strong>' + '设备编号' + shopid + '</strong>',
+                infoTitle: '<strong>' + '设备编号#' + shopid + '</strong>',
                 infoBody:
                 '<p style=\'margin5px 0 \'>' + name + '<p>' +
-                '<a class=\'trashThis\' style=\'padding: 10px;color: red\'>' + '<i class=\'Hui-iconfont\'>&#xe6e2;</i></a>' +
                 '<a style=\'padding-left: 10px;color: green\'>' + '<i id="move" class=\'Hui-iconfont\'>&#xe605;</i></a>' +
-                '<a style=\'padding-left: 22px;color: blue\'><i id="check" class=\'Hui-iconfont\'>&#xe60e;</i></a>' +
-                '<a style=\'padding-left: 25px\'><i class=\'Hui-iconfont\'>&#xe605;</i>详情</a>',
+                '<a style=\'padding-left: 22px;color: blue\'><i id="check" class=\'Hui-iconfont\'>&#xe60e;</i></a>',
                 offset: new AMap.Pixel(0, -31)
               })
               infoWindow.get$InfoBody().on('click', '.trashThis', (event) => {
